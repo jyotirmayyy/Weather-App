@@ -1,0 +1,84 @@
+#main {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+.heading-first {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 5rem;
+}
+
+.heading-second {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3.2rem;
+}
+
+.heading-third {
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.heading-fourth {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2.2rem;
+}
+
+.heading-fifth {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.city-label {
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+    margin: 5% 5% 0;
+}
+
+.our-button {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 1.5rem;
+    border: 1px solid;
+    border-radius: 5%;
+    background-color: #e7e7e7;
+    margin-top: 3%;
+}
+
+.main-container {
+    height: 700px;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin: 0 auto;
+}
+
+.cityName-input {
+    margin: 10% 0 4%;
+    height: 50px;
+    width: 500px;
+    padding-left: 30%;
+}
+
+.weather-img {
+    width: 200px;
+}
+/*****************FOOTER*******************/
+.footer-container {
+    padding: 50px 0 20px;
+    margin-bottom: 0;
+}
+
+
+.footer-link {
+    padding: 0 1%;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 1%;
+}
+
+@media (max-width: 700px) {
+    .heading-first {
+        font-size: 3rem;
+    }
+
+    .heading-second {
+        font-size: 2rem;
+    }
+}

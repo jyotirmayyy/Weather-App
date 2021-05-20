@@ -1,0 +1,22 @@
+<%- include("header"); -%>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 main-container">
+                <h1 class="heading-first"> <%= cityNameFinal %> </h1>
+                <hr>
+                <h2 class="heading-third">Temperature: <%= cityTemperature %> deg. C</h2>
+                <h2 class="heading-third">Weather Description: <%= cityDescription %> </h2>
+                <img class="weather-img" src=" <%= weatherIconImg %> " alt="Weather Image">
+                <form action="/home" method="POST">
+                    <button class="our-button" type="submit">Search for another City</button>
+                </form>
+                <hr>
+                <form action="/kanye" method="POST">
+                    <button class="our-button" type="submit">Kanye West Quote</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<%- include("footer"); -%>
